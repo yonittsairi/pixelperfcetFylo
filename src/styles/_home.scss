@@ -1,0 +1,28 @@
+.hero {
+    // height: 90vh;
+    background-color: #1b2330;
+    // margin: 0 auto;
+    text-align: center;
+    color: honeydew;
+    justify-content: center;
+    align-items: center;
+    display: flex;
+    flex-direction: column;
+    // background-position: h;
+    background-position: bottom center;
+    background-repeat: no-repeat;
+    background-size: auto 80%;
+    // justify-content: center;
+
+    img {
+        width: 720px;
+
+        max-height: 534px;
+        // display: block;
+        margin-top: 80px;
+    }
+
+    .gall {
+        margin: auto;
+    }
+}

@@ -1,0 +1,42 @@
+.second {
+    margin: 0 auto;
+    flex-direction: row;
+    align-items: center;
+    h1 {
+        font-size: 40px;
+    }
+    img {
+        width: 5;
+    }
+    b {
+        color: #61e0d8;
+        text-decoration: underline;
+    }
+    .card {
+        background-color: #181f2b;
+        width: 360px;
+        // height: 200px;
+        margin: 0 25px;
+        padding: 25px 40px;
+        display: flex;
+        justify-content: center;
+        flex-direction: column;
+        box-shadow: 0 8px 40px -19px rgba(221, 228, 235, 0.3);
+        z-index: 8;
+        // position: fixed;
+        img {
+            border-radius: 50%;
+            width: 40px;
+            margin-right: 5px;
+        }
+    }
+}
+.input {
+    width: 600px;
+    height: 50px;
+    border-radius: 30px;
+}
+.input::placeholder {
+    color: gray;
+    padding: 5px;
+}
